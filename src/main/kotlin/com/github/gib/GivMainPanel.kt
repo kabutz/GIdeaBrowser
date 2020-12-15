@@ -22,7 +22,7 @@ class GivMainPanel(val project: Project) : SimpleToolWindowPanel(true, true), Di
     /**
      * Maybe change this to something else
      */
-    private val url = "http://youtube.com"
+    private val url = "https://javaspecialists.slack.com/messages/jgym-rats"
 
     init {
         when (JBCefApp.isSupported()) {
